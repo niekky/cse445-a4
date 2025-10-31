@@ -34,7 +34,7 @@
                          maxOccurs="1" />
         </xsd:sequence>
         <xsd:attribute name="Rating"
-                type="xsd:int"
+                type="xsd:float"
                 use="optional" />
     </xsd:complexType>
     <xsd:complexType name="AddressDetails">
