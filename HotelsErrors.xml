@@ -5,7 +5,6 @@
     <Hotel Rating="5">
         <Name>Hilton Garden Inn Scottsdale</Name>
         <Name>Hilton Garden Inn</Name>
-        <Phone>480-555-1234</Phone>
         <Address>
             <Number>7325</Number>
             <Street>E Main St</Street>
@@ -25,6 +24,5 @@
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-        </Address>
     </Hotel>
 </Hotel>
