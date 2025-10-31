@@ -4,10 +4,8 @@
         xsi:schemaLocation="https://niekky.github.io/cse445-a4 Hotels.xsd">
     <Hotel>
         <Name>Westin</Name>
-        <Contact>
-            <Phone>480-968-8885</Phone>
-            <Phone>800-937-8461</Phone>
-        </Contact>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>11</Number>
             <Street>E.7th St</Street>
@@ -18,10 +16,8 @@
     </Hotel>
     <Hotel Rating="4">
         <Name>Marriott Phoenix Downtown</Name>
-        <Contact>
-            <Phone>602-555-1212</Phone>
-            <Phone>800-555-0199</Phone>
-        </Contact>
+        <Phone>602-555-1212</Phone>
+        <Phone>800-555-0199</Phone>
         <Address NearestAirport="Phoenix Sky Harbor">
             <Number>100</Number>
             <Street>N 1st St</Street>
@@ -32,10 +28,8 @@
     </Hotel>
     <Hotel Rating="5">
         <Name>Hilton Garden Inn Scottsdale</Name>
-        <Contact>
-            <Phone>480-555-1234</Phone>
-            <Phone>877-555-4321</Phone>
-        </Contact>
+        <Phone>480-555-1234</Phone>
+        <Phone>877-555-4321</Phone>
         <Address NearestAirport="Phoenix Sky Harbor">
             <Number>7325</Number>
             <Street>E Main St</Street>

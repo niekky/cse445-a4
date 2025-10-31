@@ -24,10 +24,10 @@
                          type="xsd:string"
                          minOccurs="1"
                          maxOccurs="1" />
-            <xsd:element name="Contact"
-                         type="ContactType"
+            <xsd:element name="Phone"
+                         type="PhoneType"
                          minOccurs="1"
-                         maxOccurs="1" />
+                         maxOccurs="unbounded" />
             <xsd:element name="Address"
                          type="AddressDetails"
                          minOccurs="1"
@@ -63,14 +63,6 @@
         <xsd:attribute name="NearestAirport"
                 type="xsd:string"
                 use="required" />
-    </xsd:complexType>
-    <xsd:complexType name="ContactType">
-        <xsd:sequence>
-            <xsd:element name="Phone"
-                         type="PhoneType"
-                         minOccurs="1"
-                         maxOccurs="unbounded" />
-        </xsd:sequence>
     </xsd:complexType>
     <xsd:simpleType name="PhoneType">
         <xsd:restriction base="xsd:string">
