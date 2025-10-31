@@ -2,6 +2,18 @@
 <Hotel xmlns="https://niekky.github.io/cse445-a4"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://niekky.github.io/cse445-a4 Hotels.xsd">
+    <Hotel Rating="5">
+        <Name>Hilton Garden Inn Scottsdale</Name>
+        <Name>Hilton Garden Inn</Name>
+        <Phone>480-555-1234</Phone>
+        <Address>
+            <Number>7325</Number>
+            <Street>E Main St</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
     <Hotel>
         <Name>Westin</Name>
         <Name>Westin 2</Name>
@@ -14,17 +26,5 @@
             <State>AZ</State>
             <Zip>85281</Zip>
 
-    </Hotel>
-    <Hotel Rating="5">
-        <Name>Hilton Garden Inn Scottsdale</Name>
-        <Name>Hilton Garden Inn</Name>
-        <Phone>480-555-1234</Phone>
-        <Address>
-            <Number>7325</Number>
-            <Street>E Main St</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85251</Zip>
-        </Address>
     </Hotel>
 </Hotel>
